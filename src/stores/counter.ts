@@ -1,3 +1,4 @@
+// Example from Pinia
 import { ref, computed } from 'vue'
 import { defineStore } from 'pinia'
 
