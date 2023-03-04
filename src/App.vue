@@ -4,13 +4,13 @@ import HelloWorld from './components/HelloWorld.vue'
 </script>
 
 <template>
-  <header>
+  <header class="main-header">
     <div class="wrapper">
       <HelloWorld msg="You did it!" />
 
       <nav>
         <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/me">About</RouterLink>
+        <RouterLink to="/vue-use">Vue Use</RouterLink>
       </nav>
     </div>
   </header>
@@ -55,7 +55,7 @@ nav a:first-of-type {
 }
 
 @media (min-width: 1024px) {
-  header {
+  header.main-header {
     display: flex;
     place-items: center;
     padding-right: calc(var(--section-gap) / 2);
